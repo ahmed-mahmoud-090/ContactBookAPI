@@ -1,0 +1,120 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #D8D8D8;
+    margin: 0;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+}
+
+.container {
+    background: #BDBDBD;
+    border-radius: 12px;
+    padding: 30px;
+    width: 100%;
+    max-width: 750px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    color: #333;
+    position: relative;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #0A1B2A;
+}
+
+#searchInput {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 200px;
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 0.95rem;
+    outline: none;
+}
+
+form input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+form button {
+    width: 100%;
+    padding: 12px;
+    background: #0A1B2A;
+    color: white;
+    border: none;
+    font-weight: bold;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+    form button:hover {
+        background: #0056b3;
+    }
+
+ul#contactList {
+    list-style: none;
+    padding: 0;
+    margin-top: 30px;
+}
+
+    ul#contactList li {
+        background: #f9f9f9;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        padding: 15px 20px;
+        margin-bottom: 12px;
+        transition: box-shadow 0.2s ease;
+    }
+
+        ul#contactList li:hover {
+            box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+        }
+
+        ul#contactList li strong {
+            font-size: 1.1rem;
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        ul#contactList li div {
+            margin-top: 10px;
+        }
+
+        ul#contactList li button {
+            margin-right: 10px;
+            padding: 7px 12px;
+            border: none;
+            border-radius: 6px;
+            font-size: 0.9rem;
+            cursor: pointer;
+            transition: opacity 0.2s ease;
+        }
+
+            ul#contactList li button:first-child {
+                background: #ffc107;
+                color: #000;
+            }
+
+            ul#contactList li button:last-child {
+                background: #dc3545;
+                color: #fff;
+            }
+
+            ul#contactList li button:hover {
+                opacity: 0.85;
+            }
