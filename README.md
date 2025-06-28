@@ -23,7 +23,7 @@ This is a simple **Contact Book Web App** built with:
 
 ## 📸 Demo (GIF)
 
-![Demo](https://github.com/ahmed-mahmoud-090/ContactBookAPI/blob/main/Swagger%20UI.gif)
+![Demo](Swagger%20UI.gif)
 
 > The above demo shows adding, editing, deleting, and searching contacts in real-time.
 
